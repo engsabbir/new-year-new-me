@@ -74,7 +74,31 @@ main {
     list-style: hebrew;
 }
 
-/* shared style */
+/* my plan section style */
+.my-plan-container{
+    margin-top: 60px;
+    padding-bottom: 50px;
+    background-color: darkgray;
+}
+.my-plan-container-title{
+    text-align: center;
+    padding:2rem 0;
+
+}
+.my-plan-section{
+    display: flex;
+    justify-content: space-around;
+}
+.my-plan{
+    text-align: center;
+}
+.my-plan img{
+    height: 70px;
+    width: 70px;
+}
+.my-plan  h3{
+    margin: 1rem 0rem 10px 0rem;
+}
 /* shared style */
 /* shared style */
 /* shared style */
