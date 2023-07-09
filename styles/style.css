@@ -1,11 +1,17 @@
 /* shared style */
-*{
+* {
     font-family: 'Work Sans', sans-serif;
     margin: 0 auto;
     padding: 0;
 }
+
+main {
+    width: 1050px;
+    border: 1px solid black;
+}
+
 /* header style */
-.header-section{
+.header-section {
     height: 100vh;
     background-image: url('../images/banner/banner1.png');
     background-size: contain;
@@ -13,17 +19,21 @@
     justify-content: space-between;
     align-items: center;
 }
-.header-text{
+
+.header-text {
     margin-left: 100px;
     text-align: right;
 }
-.banner-title{
+
+.banner-title {
     font-size: 55px;
 }
-.header-text > p{
+
+.header-text>p {
     margin: 20px 0px;
 }
-.contact-btn{
+
+.contact-btn {
     padding: 10px 15px;
     background-color: #F15B22;
     border: none;
@@ -31,10 +41,69 @@
     color: white;
     cursor: pointer;
 }
+
 /* my failure style */
+.my-failure-container {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+.my-failure-img img {
+    /* background-color: rebeccapurple; */
+    width: 369px;
+    height: 466px;
+    position: absolute;
+    bottom: 0;
+}
+
+.my-failure-text {
+    background-color: #F15B22;
+    padding: 100px;
+}
+
+
+
+.image-parent {
+    height: 500px;
+    width: 500px;
+    background-color: #aaaaaa;
+    position: relative;
+    border: 50%;
+}
+
 /* shared style */
 /* shared style */
 /* shared style */
 /* shared style */
 /* shared style */
 /* shared style */
+
+
+.parent {
+    background-color: aqua;
+    width: 527.929px;
+    height: 527.929px;
+    border-radius: 527px;
+    position: relative;
+
+}
+
+.child img {
+    width: 569px;
+    height: 724px;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    margin-right: 100px;
+    /* right: 0; */
+}
+.call-now{
+    background-image: url('../images/watch.png'), linear-gradient(90deg, rgb(189, 60, 8, 0.2), rgb(8, 20, 190, 0.5));
+    background-blend-mode: overlay;
+    background-size: cover;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    height: 200px;
+    padding: 20px;
+}
